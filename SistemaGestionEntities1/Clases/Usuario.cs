@@ -1,7 +1,7 @@
-public class Venta
+public class Usuario
 {
     public int Id { get; set; }
-    public string Comentario { get; set; }
-    public int Usuario { get; set; }
-    public List<ProductoVendido> ProductosVendidos { get; set; } = new List<ProductoVendido>();
+    public string Nombre { get; set; }
+    public string Apellido { get; set; }
+    public string Mail { get; set; }
 }
