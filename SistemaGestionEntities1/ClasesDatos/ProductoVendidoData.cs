@@ -1,4 +1,4 @@
-Public static class ProductoVendidoData
+public static class ProductoVendidoData
 {
     public static List<ProductoVendido> ObtenerProductosVendidos()
     {
