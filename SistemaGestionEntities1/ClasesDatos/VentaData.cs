@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+public static class VentaData
+{
+    public static List<Venta> ObtenerVentas()
+    {
+    }
+    public static void AgregarVenta(Venta venta)
+    {
+    }
+    public static void ActualizarVenta(Venta venta)
+    {
+    }
+    public static void EliminarVenta(int id)
+    {
+    }
+}
