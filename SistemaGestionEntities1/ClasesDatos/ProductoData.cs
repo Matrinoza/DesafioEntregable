@@ -1,2 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+public static class ProductoData
+{
+    public static List<Producto> ObtenerProductos()
+    {
+
+    }
+    public static void AgregarProducto(Producto producto)
+    {
+  
+    }
+    public static void ActualizarProducto(Producto producto)
+    {
+
+    }
+    public static void EliminarProducto(int id)
+    {
+
+    }
+}
