@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+public class ProductoVendido
+{
+    public int Id { get; set; }
+    public int IdProdcuto { get; set; }
+    public double Stock { get; set; }
+}
