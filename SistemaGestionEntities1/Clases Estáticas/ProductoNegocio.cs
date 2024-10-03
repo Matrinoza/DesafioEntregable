@@ -1,19 +1,19 @@
-public static class ProductoVendidoNegocios
+public static class ProductoNegocio
 {
-    public static List<ProductoVendido> ObtenerTodosLosProductosVendidos()
+    public static List<Producto> ObtenerTodosLosProductos()
     {
-        return ProductoVendidoData.ObtenerProductosVendidos();
+        return ProductoData.ObtenerProductos();
     }
-    public static void AgregarProductoVendido(ProductoVendido productoVendido)
+    public static void AgregarProducto(Producto producto)
     {
-        ProductoVendidoData.AgregarProductoVendido(productoVendido);
+        ProductoData.AgregarProducto(producto);
     }
-    public static void ActualizarProductoVendido(ProductoVendido productoVendido)
+    public static void ActualizarProducto(Producto producto)
     {
-        ProductoVendidoData.ActualizarProductoVendido(productoVendido);
+        ProductoData.ActualizarProducto(producto);
     }
-    public static void EliminarProductoVendido(int id)
+    public static void EliminarProducto(int id)
     {
-        ProductoVendidoData.EliminarProductoVendido(id);
+        ProductoData.EliminarProducto(id);
     }
 }
